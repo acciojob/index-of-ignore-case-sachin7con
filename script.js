@@ -1,6 +1,17 @@
 function indexOfIgnoreCase(s1, s2) {
-  // write your code here
+  //SGN write your code here
+	let s1L = s1.toLowerCase();
+	let s2L = s2.toLowerCase();
+	
+	if(s1L.includes(s2L){
+		
+		return indexOf(s2L);
+	}else {
+		return -1;
+	}
+
 }
+
 
 // Please do not change the code below
 const s1 = prompt("Enter s1:");
