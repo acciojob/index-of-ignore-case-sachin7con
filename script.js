@@ -1,5 +1,5 @@
 function indexOfIgnoreCase(s1, s2) {
-  //SGN write your code here
+  //SGN  write your code here
 	let s1L = s1.toLowerCase();
 	let s2L = s2.toLowerCase();
 	
@@ -9,6 +9,7 @@ function indexOfIgnoreCase(s1, s2) {
 	}else {
 		return -1;
 	}
+	
 
 }
 
