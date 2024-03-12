@@ -3,9 +3,9 @@ function indexOfIgnoreCase(s1, s2) {
 	let s1L = s1.toLowerCase();
 	let s2L = s2.toLowerCase();
 	
-	if(s1L.includes(s2L){
+	if(s1L.includes(s2L)){
 		
-		return indexOf(s2L);
+		return s1L.indexOf(s2L);
 	}else {
 		return -1;
 	}
